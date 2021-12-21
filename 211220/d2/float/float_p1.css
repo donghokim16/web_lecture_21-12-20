@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: -0.02em;
+}
+
+a {
+  font-size: 18px;
+  line-height: 20px;
+  color: #8492a6;
+  text-decoration: none;
+  float: left;
+  margin: 16px 20px;
+  padding: 20px 16px;
+  transition: .5s;
+}
+a:hover{
+  color: skyblue;
+font-weight: bold;
+}
+/* ▼ WHERE YOUR CODE BEGINS */
+li{
+  list-style: none;
+}
+
+.asdf{
+  border-bottom: 2px skyblue;
+}
+ul::after{
+  content: "";
+  clear: left;
+  display: block;
+}

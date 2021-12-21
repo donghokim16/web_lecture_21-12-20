@@ -1,0 +1,21 @@
+
+
+
+
+.parent{
+    width: 480px;
+    background-color: rgb(165, 165, 161);
+}
+
+.child{
+    width: 400px;
+    height: 200px;
+}
+
+.red{
+    background-color: red;
+    margin: 0 auto;
+}
+.yellow{
+    background-color: yellow;
+}
